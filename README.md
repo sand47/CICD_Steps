@@ -20,27 +20,27 @@ git push -u origin main <br>
 
 ###  pushing to github 
 
-git add .
-git commit -m "commit line"
-git push 
+git add . <br>
+git commit -m "commit line" <br>
+git push <br>
 
 ### fetch from github 
 
-git fetch origin 
-git merge / git pull 
+git fetch origin  <br>
+git merge / git pull  <br>
 
 ### before push always pull 
 
-commit first and before push do pull. 
-If you see confilt, fix it ->commit and then push 
+commit first and before push do pull.  <br>
+If you see confilt, fix it ->commit and then push <br>
 
 ### create branch 
 
-git checkout -b branchName
-git push --set-upstream origin divbranch
-and then push, it will not go to master 
+git checkout -b branchName <br>
+git push --set-upstream origin divbranch <br>
+and then push, it will not go to master  <br>
 
 ### comeback to master 
-git switch branch-name
-git checkout master 
+git switch branch-name <br>
+git checkout master <br>
 
