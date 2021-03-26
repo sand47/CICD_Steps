@@ -44,3 +44,15 @@ and then push, it will not go to master  <br>
 git switch branch-name <br>
 git checkout master <br>
 
+### removes ^m 
+
+git config --global core.whitespace cr-at-eol
+
+
+### merge request
+git status ( to see code that are modified)
+git add . 
+git commit -m " why push"
+git push 
+
+
