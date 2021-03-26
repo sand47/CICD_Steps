@@ -1,12 +1,14 @@
-mkdir folder 
-cd folder 
-git clone url 
-put file 
+mkdir folder  <br>
+cd folder <br>
+git clone url  <br>
+
+
+General Stages: 
 
 1) Modify 
 2) stage
 3) commit
-4) push 
+4) push/merge 
 
 
 echo "# CICD_Steps" >> README.md <br>
