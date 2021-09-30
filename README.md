@@ -50,10 +50,10 @@ git checkout master <br>
 
 git config --global core.whitespace cr-at-eol
 
-## remove branch 
+### remove branch 
 
-git branch -d branch_name
-git push origin --delete test
+git branch -d branch_name <br>
+git push origin --delete test <br>
 
 ### merge request
 git status ( to see code that are modified)
