@@ -39,7 +39,7 @@ If you see confilt, fix it ->commit and then push <br>
 ### create branch 
 
 git checkout -b branchName <br>
-git push --set-upstream origin divbranch <br>
+git push --set-upstream origin branchName <br>
 and then push, it will not go to master  <br>
 
 ### comeback to master 
@@ -50,6 +50,10 @@ git checkout master <br>
 
 git config --global core.whitespace cr-at-eol
 
+## remove branch 
+
+git branch -d branch_name
+git push origin --delete test
 
 ### merge request
 git status ( to see code that are modified)
