@@ -46,7 +46,7 @@ and then push, it will not go to master  <br>
 git switch branch-name <br>
 git checkout master <br>
 
-### removes ^m 
+### removes 
 
 git config --global core.whitespace cr-at-eol
 
