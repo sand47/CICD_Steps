@@ -40,7 +40,7 @@ If you see confilt, fix it ->commit and then push <br>
 
 git checkout -b branchName <br>
 git push --set-upstream origin branchName <br>
-and then push, it will not go to master  <br>
+and then push, it will go to branch  <br>
 
 ### comeback to master 
 git switch branch-name <br>
